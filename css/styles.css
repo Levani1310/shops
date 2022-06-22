@@ -1,0 +1,207 @@
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+section {
+  min-height: 10vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #a9a9a9;
+}
+
+/* Responsiveness Stuff */
+@media (max-width: 768px) {
+  .nav-item {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0 inherit;
+  }
+  .shop-body {
+    padding: 25% 2% 1% 2%;
+    text-align: center;
+    margin: auto;
+  }
+  .shop-additional-img {
+    max-width: 90%;
+    max-height: 40%;
+    margin: 3rem 0;
+  }
+  #Contact {
+    padding: 35% 20% 20% 20%;
+  }
+  nav {
+    position: fixed;
+    background-color: white;
+    padding: 0 9% 0 0;
+  }
+  nav .navbar-toggler {
+    margin: 0 inherit;
+  }
+  .navbar-brand {
+    line-height: 73px;
+    font-size: 70px;
+    font-family: 'League Spartan', sans-serif;
+    padding: 0 0 0 10%;
+  }
+  #Home {
+    padding: 50% 0 50% 0;
+  }
+  #About div {
+    text-align: left;
+    padding: 100% 2% 60% 2%;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .shop-body {
+    padding: 8% 2% 1% 2%;
+    text-align: center;
+    margin: auto;
+  }
+  .shop-additional-img {
+    max-width: 30%;
+    max-height: 10%;
+    margin: 3rem 0;
+  }
+  #Contact {
+    padding: 10% 30% 20% 30%;
+  }
+  nav {
+    position: fixed;
+    padding-right: 9%;
+    padding-top: 3%;
+  }
+  #Home {
+    padding: 20% 0 20% 0;
+  }
+  #About div {
+    text-align: left;
+    padding: 20% 32% 20% 32%;
+    font-size: 2rem;
+  }
+  .navbar-brand {
+    font-size: 6.2rem;
+    line-height: 5%;
+    font-family: 'League Spartan', sans-serif;
+    font-style: bold;
+    padding-left: 9%;
+    padding-top: 2.6%;
+  }
+  .nav-item {
+    font-size: 2rem;
+    padding: 3.2% 0 2% 0;
+  }
+}
+
+/* Navigation Bar */
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding-left: 1rem;
+}
+
+/* Title */
+.title h1 {
+  font-size: 4rem;
+  font-family: 'League Spartan', sans-serif;
+}
+
+/* About */
+#About p {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Work */
+#Shops .container {
+  padding: 20% 0 20% 0;
+}
+
+.project-img {
+  width: 350px;
+  margin: inherit;
+}
+
+.project {
+  margin: auto;
+  text-align: left;
+  width: 350px;
+}
+
+.description {
+  width: 350px;
+}
+
+/* Contact */
+#Contact h2 {
+  font-size: 2rem;
+  font-family: 'League Spartan', sans-serif;
+}
+
+/* Footer */
+#Footer {
+  color: #a9a9a9;
+  min-height: 5vh;
+  padding-bottom: 1%;
+}
+
+#Footer a {
+  color: #a9a9a9;
+}
+
+#Footer a:hover {
+  color: black;
+}
+
+.shop-title {
+  font-size: 2rem;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.shop-main-img {
+  max-width: 60%;
+  max-height: 20%;
+  margin-bottom: 1rem;
+}
+
+.shop-description {
+  font-size: larger;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.instructions {
+  text-align: left;
+}
+
+#Footer-Shop {
+  color: #a9a9a9;
+  margin-top: 5%;
+}
+
+#Footer-Shop a {
+  color: #a9a9a9;
+}
+
+#Footer-Shop a:hover {
+  color: black;
+}
+
+.Reviews {
+  text-align: left;
+}
+
+.Reviews .shop-description {
+  margin: initial;
+}
+
+.Reviews p {
+  margin: 0;
+}
+/*# sourceMappingURL=styles.css.map */
